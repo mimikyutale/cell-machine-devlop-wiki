@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(50, 50, 50);
+  color: whitesmoke;
+}
+a {
+  color: green;
+}
+#toc {
+  /* 目次のスタイル */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+}
+
+#toc ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#toc ul li {
+  margin: 0;
+  padding: 0;
+}
+
+#toc a {
+  color: #333;
+  text-decoration: none;
+}
+
+#toc a:hover {
+  text-decoration: underline;
+}
